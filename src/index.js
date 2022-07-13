@@ -4,7 +4,7 @@ import { render } from 'react-dom';
 import { renderIntoDocument } from 'react-dom/test-utils';
 
 const App = () => {
-  return <div>Hello</div>
+  return <div>Hello there!</div>
 }
 
 
