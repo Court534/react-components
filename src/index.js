@@ -6,7 +6,7 @@ const App = () => {
     <div className="ui container comments">
       <div className="comment">
         <a href="/" className="avatar">
-          <img src="" alt="avatar" />
+          <img src="{faker.image.image()" alt="avatar" />
         </a>
         <div className="content">
           <a href="/" className='author'>
@@ -15,7 +15,7 @@ const App = () => {
           <div className="metedata">
             <span className='date'>Today at 18:00</span>
           </div>
-          <div className="text">Nice blog post</div>
+          <div className="text">Nice blog post </div>
         </div>
       </div>
     </div>
