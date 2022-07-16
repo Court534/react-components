@@ -1,11 +1,26 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from 'react-dom';
-import { render } from 'react-dom';
-import { renderIntoDocument } from 'react-dom/test-utils';
 
 const App = () => {
-  return <div>Hello there!</div>
-}
+  return (
+    <div className="ui container comments">
+      <div className="comment">
+        <a href="/" className="avatar">
+          <img src="" alt="avatar" />
+        </a>
+        <div className="content">
+          <a href="/" className='author'>
+            Sam
+          </a>
+          <div className="metedata">
+            <span className='date'>Today at 18:00</span>
+          </div>
+          <div className="text">Nice blog post</div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 
-ReactDOM.render(<App />, document.querySelector('#root'))
+ReactDOM.render(<App />, document.querySelector('#root'));
