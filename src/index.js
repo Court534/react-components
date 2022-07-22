@@ -12,7 +12,7 @@ const App = () => {
     <ApprovalCard>
       <div>
         <h4>Warning!</h4>
-        Are you sure you want to do this?
+        This is a test...
       </div>
     </ApprovalCard>
 
